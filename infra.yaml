@@ -1,5 +1,5 @@
 ---
-name: AWSCreate
+name: AWSCreated
 on:
   push:
     branches:
