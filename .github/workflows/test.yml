@@ -17,9 +17,9 @@
             with:
               fetch-depth: 0
           - name: GitLeaks Scan
-            uses: gitleaks/gitleaks-action@v2
+            uses: gitleaks/gitleaks-action@v2.3.4
           - name: Checkov GitHub Action
-            uses: bridgecrewio/checkov-action@v12
+            uses: bridgecrewio/checkov-action@v12.1347.0
             with:
               output_format: cli,sarif
               output_file_path: console,results.sarif
